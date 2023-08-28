@@ -1,11 +1,5 @@
-"""MySQL connection."""
-
-# Standard libraries
 import os
-
-# PyMySQL
 import pymysql.cursors
-
 
 class MySQLConnection:
     """Modelo de clase para la conexión a la base de datos (esquema)."""

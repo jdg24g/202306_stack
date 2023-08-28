@@ -1,0 +1,29 @@
+<div class="card p-4">
+    <div class="card-body">
+        <h4 class="card-title text-center">Registration</h4>
+
+        <form action="/register" method="post" class="mt-4">
+            <div class="mb-3">
+                <label for="first_name" class="form-label">Nombre</label>
+                <input type="text" id="first_name" name="first_name" class="form-control" placeholder="Juan Perez">
+            </div>
+            <div class="mb-3">
+                <label for="last_name" class="form-label">Apellido</label>
+                <input type="text" id="last_name" name="last_name" class="form-control" placeholder="Benitez Lopez">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="ejemplo@ejemplo.com">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="clavesupersecreta">
+            </div>
+            <div class="mb-3">
+                <label for="confirm_password" class="form-label">Confirm password</label>
+                <input type="password" id="confirm_password" name="confirm_password" class="form-control" placeholder="clavesupersecreta">
+            </div>
+            <button type="submit" class="btn btn-primary float-end">Registrarse</button>
+        </form>
+    </div>
+</div>
